@@ -1,0 +1,133 @@
+
+header h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    background-image: linear-gradient(to right,#a61111, #e3c851);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+p {
+    font: italic 1.2em "Fira Sans", serif;
+    color: blue;
+}
+.border {
+	display: grid;
+	place-items: center;
+	min-height: 200px;
+	border: 8px solid;
+    background-color: rgb(220, 147, 53);
+	padding: 1rem;
+}
+.sides {
+	border-image: linear-gradient(to right, rgb(180, 4, 4), rgb(255, 255, 47)) 1 0;
+}
+.container {
+    max-width: 1245px;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #9c998f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title {
+/* text-align:left; */
+color:#fbce06;
+font-size: 45px;
+object-fit: contain;
+}
+
+.project-1 {
+    background-color: rgb(195, 8, 8);
+    background-size: contain;   
+}
+
+.project-2 {
+    background-color: rgb(251, 221, 50);
+    background-size: contain;
+}
+
+.project-3 {
+    background-color: rgb(195, 42, 42);
+    background-size: cover;
+}
+
+.project-4 {
+    background-color: rgb(252, 232, 119);
+    background-size: cover;
+}
+
+.project-5 {
+    background-color: rgb(141, 29, 29);
+    background-size: cover;
+}
+
+.project-6 {
+    background-color: rgb(246, 203, 49);
+    background-size: cover;
+}
+
+.project-7 {
+    background-color: rgb(251, 228, 51);
+    background-size: cover;
+}
+
+.project-text {
+    text-align:center;
+    font-size:50px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 1000px;
+    margin-bottom:10px;
+    background-color: rgb(206, 205, 201);
+    color: white;
+    text-align: center;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.column-4 {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    margin:4px;
+    height: 400px;
+    list-style:none ;
+}
+
+
+.project-1:hover {
+    background-color:#FEDE00;
+}
+
+.project-2:hover {
+    background-color:#fe4c00;
+}
+
+.project-3:hover {
+    background-color: #FEDE00;
+}
+
+.project-4:hover {
+    background-color: #d34e36;
+}
+
+.project-5:hover {
+    background-color: #FEDE00;
+}
+
+.project-6:hover {
+    background-color: #fe4c00;
+}  
+
+.project-7:hover {
+background-color: #FEDE00;
+}
